@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html">Accueil</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Qui sommes nous
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html">L'entreprise</a></li>
+                        <li><a class="dropdown-item" href="index.htmls">Nos valeurs</a></li>
+                        <li><a class="dropdown-item" href="index.html">Notre challenge</a></li>
+                        <li><a class="dropdown-item" href="index.html">Video de présentaion</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="about.html">Notre savoir-faire</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="gallery.html">Nos réalisations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <a id="connecter" class="btn btn-outline-success" type="submit">Se connecter</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="portfolio" id="mh-portfolio">
+        <div class="container">
+
+            <h1 class="title">GALERIE D'IMAGES</h1>
+            <nav class="nav mb-2">
+                <a class="nav-link  active" aria-current="page" href="#" onclick="filterImages('filterAll', this)">Toute</a>
+                <a class="nav-link" href="#" onclick="filterImages('filter1', this)">Filter1</a>
+                <a class="nav-link" href="#" onclick="filterImages('filter2', this)">Filter2</a>
+                <a class="nav-link" href="#" onclick="filterImages('filter3', this)">Filter3</a>
+                <a class="nav-link" href="#" onclick="filterImages('filter4', this)">Filter4</a>
+              </nav>
+        
+            <div class="image-container">
+                
+                <div class="cards">
+                    <img src="images/portfolio/1.jpg" id="filter1" alt="">
+                  </div>
+                <div class="cards">
+                    <img src="images/portfolio/2.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/3.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/4.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/5.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/6.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/7.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/8.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/9.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/10.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/11.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/12.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/13.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/14.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/15.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/16.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/17.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/18.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/19.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/20.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/21.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/22.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/23.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/24.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/25.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/26.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/27.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/28.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/29.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/30.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/31.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/32.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/33.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/34.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/35.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/36.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/37.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/38.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/39.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/40.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/41.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/42.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/43.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/44.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/45.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/46.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/47.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/48.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/49.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/50.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/51.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/52.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/53.jpg" id="filter1" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/54.jpg" id="filter2" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/55.jpg" id="filter3" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/56.jpg" id="filter4" alt="">
+                </div>
+                <div class="cards">
+                    <img src="images/portfolio/57.jpg" id="filter1" alt="">
+                </div>
+               
+            </div>
+        
+        </div>
+    </section>
+    <div class = "image-view"></div>
+        
+        <div class = "image-box">
+            <div id = "prev-btn"></div>
+            <div id = "next-btn"></div>
+        </div>
+   
+
+        <section class="companys">
+            <div class="container">
+                <div class="row">
+                    <div class="slider">
+                        <div id="slick_slide" class="slick_slide">
+                            <div class="slide"><img src="images/1.png"  alt=""></div>
+                            <div class="slide"><img src="images/2.png"  alt=""></div>
+                            <div class="slide"><img src="images/3.png"  alt=""></div>
+                            <div class="slide"><img src="images/4.png"  alt=""></div>
+                            <div class="slide"><img src="images/5.png"  alt=""></div>
+                            <div class="slide"><img src="images/6.png"  alt=""></div>
+                            <div class="slide"><img src="images/7.png"  alt=""></div>
+                            <div class="slide"><img src="images/8.png"  alt=""></div>
+                            <div class="slide"><img src="images/9.png"  alt=""></div>
+                            <div class="slide"><img src="images/10.png"  alt=""></div>
+                            <div class="slide"><img src="images/11.png"  alt=""></div>
+                           
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>|
+     <!------------------------------------- Footer---------------------------------------------->
+     <footer>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-4 d-flex flex-column">
+                     <h5>Suivez-nous</h5>
+                     <a class="mt-3" href=""><i class='bx bxl-facebook-circle me-2'></i>Facebook</a>
+                     <a class="mt-3" href=""><i class='bx bxl-linkedin me-2' ></i>Linkden</a>
+                     <a class="mt-3" href=""><i class='bx bxl-instagram me-2' ></i>Instagram</a>
+                </div>
+                 <div class="col-lg-4">
+                    <h5>Suivez-nous</h5>
+                    <p><i class='bx bxs-envelope me-2' ></i>commercial.ebf@gmail.com</p>
+                    <p><i class='bx bxs-phone me-2' ></i>+212 5 22 27 88 72</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Suivez-nous</h5>
+                    <p>28 Avenue des FAR 4ème étage
+                     N° 44-45 IMMEUBLE LES HESPERIDES
+                      CASABLANCA 20000
+                      MAROC</p>
+                 </div>
+                    </div>
+                 </div>
+       </footer> 
+        <section class="copyright">
+             <h4>Copyright 2023 © EL BOUNIANE FINITION  </h4>
+        </section>     
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+                
+    
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   <script src="particles.js"></script>
+   <script src="app.js"></script>
+   <script src="script.js"></script>
+   <script src="caroussel.js"></script>
+         
+         </body>
+ </html>
